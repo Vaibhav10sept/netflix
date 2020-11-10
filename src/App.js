@@ -43,7 +43,7 @@ export default class App extends Component {
 
 		</div>
 		: 
-		<di> 
+		<div> 
 		<Nav />
 	  <Banner />
 	  <Row
@@ -59,7 +59,7 @@ export default class App extends Component {
 	  <Row title="Romance Movies" fetchUrl={requests.fetchRomanceMovies} />
 	  <Row title="Documentaries" fetchUrl={requests.fetchDocumentaries} />
 	  <Footer /> 
-	  </di>
+	  </div>
 		}
         
       </div>
