@@ -1,0 +1,14 @@
+.footer-main {
+    height: 40px;
+    display: flex;
+    background: linear-gradient(90deg, #050d20 50%, #182848 100%);   
+     width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.footer-main span {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+}
